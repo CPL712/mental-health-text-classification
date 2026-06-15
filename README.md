@@ -2,7 +2,7 @@
 
 An end-to-end Natural Language Processing (NLP) project comparing a Bidirectional LSTM baseline with a fine-tuned DistilBERT transformer for multi-class mental health text classification.
 
-Developed as part of the **Applied Artificial Intelligence Postgraduate Program** at **George Brown College**, this project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis, deep learning model development, evaluation, model comparison, and deployment with Streamlit.
+Developed as part of the **Applied Artificial Intelligence Postgraduate Program** at **George Brown College**, this project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis, deep learning model development, evaluation, and model comparison.
 
 ---
 
@@ -15,7 +15,7 @@ This project investigates how deep learning can automatically classify mental he
 - Bidirectional Long Short-Term Memory (BiLSTM)
 - DistilBERT Transformer
 
-The project follows an end-to-end machine learning pipeline from exploratory data analysis and preprocessing through model training, evaluation, comparison, and deployment using Streamlit.
+The project follows an end-to-end machine learning pipeline from exploratory data analysis and preprocessing through model training, evaluation, and comparison.
 
 ---
 
@@ -55,7 +55,6 @@ https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-h
 - Fine-tune a DistilBERT transformer model.
 - Compare deep learning architectures for multi-class text classification.
 - Evaluate models using standard classification metrics.
-- Deploy the final solution through a Streamlit web application.
 
 ---
 
@@ -77,8 +76,6 @@ Model Development
 Model Evaluation
       │
 Performance Comparison
-      │
-Streamlit Deployment
 ```
 
 ---
@@ -204,27 +201,12 @@ DistilBERT consistently outperformed the BiLSTM baseline, demonstrating superior
 
 ---
 
-## 💻 Streamlit Application
-
-A Streamlit application was developed to demonstrate the trained models through an interactive interface.
-
-Users can:
-
-- Select either the BiLSTM or DistilBERT model
-- Enter custom text
-- View predicted sentiment category
-- Display confidence scores
-- Compare predictions interactively
-
----
 
 ## 📂 Repository Structure
 
 ```text
 mental-health-text-classification/
 │
-├── app/
-│   └── app.py
 │
 ├── data/
 │   ├── raw/
