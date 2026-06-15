@@ -61,7 +61,7 @@ Categories:
 # 🔄 Project Workflow
 
 <p align="center">
-<img src="images/project_workflow.png" width="900">
+<img src="images/project_workflow.png" width="700">
 </p>
 
 ---
