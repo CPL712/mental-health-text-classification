@@ -158,7 +158,7 @@ Architecture:
 ### Training Curves
 
 <p align="center">
-<img src="images/bilstm_training_accuracy_loss.png" width="650">
+<img src="images/bilstm_training_loss.png" width="650">
 </p>
 
 ---
