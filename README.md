@@ -4,23 +4,6 @@ An end-to-end Natural Language Processing (NLP) project comparing a Bidirectiona
 
 Developed as part of the **Applied Artificial Intelligence Postgraduate Program** at **George Brown College**, this project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis, deep learning model development, evaluation, model comparison, and deployment with Streamlit.
 > *(Project workflow image will be added here.)*
-                Mental Health Text Classification
-
-                    Kaggle Dataset (53k+ samples)
-                              │
-                    Text Preprocessing (NLTK)
-                              │
-          ┌───────────────────┴───────────────────┐
-          │                                       │
-   Bidirectional LSTM                     DistilBERT
-   (Baseline Model)                  (Transformer Model)
-          │                                       │
-      70% Accuracy                          82% Accuracy
-          └───────────────────┬───────────────────┘
-                              │
-                    Performance Comparison
-                              │
-                     Streamlit Web Application
 
 ## 📌 Project Overview
 
